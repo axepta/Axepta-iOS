@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'Axepta'
-  s.version               = '0.0.1'
+  s.version               = '1.0.0'
   s.summary               = 'Axepta SDK for iOS'
   # s.description         = 'Axepta SDK for iOS'
-  s.homepage              = 'https://github.com/Axepta/Axepta-iOS.git'
+  s.homepage              = 'https://github.com/axepta/Axepta-iOS.git'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
-  s.author                = { 'Gerald Collaku' => 'gerald.collaku@endava.com' }
+  s.author                = { 'Endava Developer' => 'AxeptaDev@endava.com' }
   s.source                = { :git => 'https://github.com/axepta/Axepta-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks   = 'Axepta/**/Axepta.framework'
