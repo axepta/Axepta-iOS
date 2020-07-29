@@ -1,0 +1,16 @@
+PODS:
+  - Axepta (0.0.1)
+
+DEPENDENCIES:
+  - Axepta (from `../Axepta`)
+
+EXTERNAL SOURCES:
+  Axepta:
+    :path: "../Axepta"
+
+SPEC CHECKSUMS:
+  Axepta: 6c12dfdf8201f35ab4100c37fa4b498f8b539111
+
+PODFILE CHECKSUM: ebe8b1563c0b9057a4ead268c39054cfa7fd44f3
+
+COCOAPODS: 1.8.4

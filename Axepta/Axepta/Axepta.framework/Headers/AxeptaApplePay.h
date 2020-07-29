@@ -1,0 +1,69 @@
+//
+//  AxeptaApplePay.h
+//  Axepta
+//
+//  Created by Gerald Çollaku
+//  Copyright © BNP PARIBAS. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import <PassKit/PassKit.h>
+
+#import "AxeptaApplePayDelegate.h"
+#import "AxeptaPaymentMethod.h"
+
+/**
+ AxeptaApplePay
+ 
+ The AxeptaApplePay class is a top-level class that facilitates the Apple Pay payment procedure.
+ It is responsible for validating payment data and instantiating a PKPaymentAuthorizationViewController object.
+ 
+ */
+
+@interface AxeptaApplePay : NSObject
+
+/**
+ Delegate object conforming to AxeptaApplePayDelegate protocol in order to retrieve responses from payment.
+ 
+ */
+@property (nonatomic, weak) id <AxeptaApplePayDelegate> delegate;
+
+/**
+ Validates parameters and instantiates a PKPaymentAuthorizationViewController object.
+ 
+ @param paymentMethod                       A model object that contains all the Payment Method's related data.
+ @param paymentSummaryItems                 An array of PKPaymentSummaryItem objects, defining a summary item in a payment request—for example, total, tax, discount, or grand total.
+ @param supportedNetworks                   The payment networks supported by the merchant, for example @[ PKPaymentNetworkVisa, PKPaymentNetworkMasterCard ].  This property constrains payment cards that may fund the payment.
+ @param requiredShippingAddressFields       The shipping address fields inside ApplePay UI (PKAddressFieldPostalAddress|PKAddressFieldPhone|PKAddressFieldEmail|PKAddressFieldName)
+ @param onSuccess                           A PKPaymentAuthorizationViewController object.
+ @param onFailure                           Returns an error, if the PKPaymentAuthorizationViewController object could not be instantiated
+
+ @return Void
+ */
+- (void)instantiatePKPaymentAuthorizationViewControllerWithPaymentMethod:(AxeptaPaymentMethod *)paymentMethod
+                                               withPaymentSummaryItems:(NSArray<PKPaymentSummaryItem *> *)paymentSummaryItems
+                                                 withSupportedNetworks:(NSArray *)supportedNetworks
+                                     withRequiredShippingAddressFields:(PKAddressField)requiredShippingAddressFields
+                                    paymentAuthorizationViewController:(void (^)(PKPaymentAuthorizationViewController *applePayViewController))onSuccess
+                                                             onFailure:(void (^)(NSError *error))onFailure;
+
+/**
+ Determine whether this device can process payment requests.
+ YES if the device is generally capable of making in-app payments.
+ NO if the device cannot make in-app payments or if the user is restricted from authorizing payments.
+ */
+- (BOOL)canMakePayments;
+
+/**
+ Determine whether this device can process payment requests using specific payment network brands.
+ Your application should confirm that the user can make payments before attempting to authorize a payment.
+ Your application may also want to alter its appearance or behavior when the user is not allowed to make payments.
+ YES if the user can authorize payments on this device using one of the payment networks supported by the merchant.
+ NO if the user cannot authorize payments on these networks or if the user is restricted from authorizing payments.
+ 
+ @param supportedNetworks The payment networks supported by the merchant, for example @[ PKPaymentNetworkVisa, PKPaymentNetworkMasterCard ].  This property constrains payment cards that may fund the payment.
+ 
+ */
+- (BOOL)canMakePaymentsForSupportedNetworks:(NSArray *)supportedNetworks;
+
+@end

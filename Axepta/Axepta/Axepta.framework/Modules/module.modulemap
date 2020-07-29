@@ -1,0 +1,6 @@
+framework module Axepta {
+  umbrella header "Axepta.h"
+
+  export *
+  module * { export * }
+}
