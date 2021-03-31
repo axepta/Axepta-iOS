@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'Axepta'
-  s.version               = '1.0.0'
+  s.version               = '1.2.1'
   s.summary               = 'Axepta SDK for iOS'
   # s.description         = 'Axepta SDK for iOS'
   s.homepage              = 'https://github.com/axepta/Axepta-iOS.git'
@@ -17,6 +17,10 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/axepta/Axepta-iOS.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.vendored_frameworks   = 'Axepta/**/Axepta.framework'
+
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
 
 end
 

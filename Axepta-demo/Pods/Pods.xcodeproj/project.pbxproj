@@ -19,81 +19,82 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		16B34EEFB9E09A97A0D96C39A17453D0 /* Pods-Axepta-demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D21883247532A28BA48E445E65D9E8 /* Pods-Axepta-demoTests-dummy.m */; };
-		99AF35636219C6EBF77555DC269497B0 /* Pods-Axepta-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E7DFA9DC26D04CC3ED2CDE075B4033 /* Pods-Axepta-demo-dummy.m */; };
-		C9FB7783050845B838DC43D1AA327185 /* Pods-Axepta-demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C2627E3AA63D41EF51AFE2FABCFE35 /* Pods-Axepta-demoUITests-dummy.m */; };
+		26DD68E2D42CB595F52547896281AA2C /* Pods-Axepta-demoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C2627E3AA63D41EF51AFE2FABCFE35 /* Pods-Axepta-demoUITests-dummy.m */; };
+		A2B28B0CFF9A0B4CC246824B8E8FC92F /* Pods-Axepta-demoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D21883247532A28BA48E445E65D9E8 /* Pods-Axepta-demoTests-dummy.m */; };
+		D2C8697E96B28D089AEE992C73E5BF79 /* Pods-Axepta-demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E7DFA9DC26D04CC3ED2CDE075B4033 /* Pods-Axepta-demo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FA15B06F262A67E20733C4D658A65A2 /* PBXContainerItemProxy */ = {
+		C3A8C5C6605772AFE7393148FDECDA62 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 34572C7AF25B32F6B570D2B26080F7EE;
 			remoteInfo = "Pods-Axepta-demo";
 		};
-		2F8217D7652D8EC920A3A0D0447F3080 /* PBXContainerItemProxy */ = {
+		E1F711CFD3634C2494D11758C7FE003F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34572C7AF25B32F6B570D2B26080F7EE;
+			remoteInfo = "Pods-Axepta-demo";
+		};
+		F31ABA9D561605F9BE3CA453085ED9BF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 84E2B79FCAB62DD921818F171936FFE5;
 			remoteInfo = Axepta;
 		};
-		80C174EBEA263E71DE821DC7EDA81690 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 34572C7AF25B32F6B570D2B26080F7EE;
-			remoteInfo = "Pods-Axepta-demo";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1882FB6274D00A9187581C1D41AD05C5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0139ADABB42C0FD89C3F045F0F1C5774 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2F9C8EFC992ED9EAC3DA08400640293E /* Pods-Axepta-demoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Axepta-demoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		333E7F633715FBDD082D6A3BC5BD87E1 /* Pods-Axepta-demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4523F1AA49504A8CA90DFB04299D651E /* Pods-Axepta-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demoTests.release.xcconfig"; sourceTree = "<group>"; };
 		50E7DFA9DC26D04CC3ED2CDE075B4033 /* Pods-Axepta-demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Axepta-demo-dummy.m"; sourceTree = "<group>"; };
 		5D689C7EEE17A0169673907CF8468119 /* Pods-Axepta-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6570C0F99BB417593CBB7333766DB6D3 /* libPods-Axepta-demoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Axepta-demoUITests.a"; path = "libPods-Axepta-demoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6574D52D77CF3C0D7FC1714F039327A4 /* Axepta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Axepta.framework; path = Axepta/Axepta.framework; sourceTree = "<group>"; };
 		664589F9AC0B58CF8677C6CEB5A345A7 /* Pods-Axepta-demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Axepta-demo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		66D21883247532A28BA48E445E65D9E8 /* Pods-Axepta-demoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Axepta-demoTests-dummy.m"; sourceTree = "<group>"; };
-		7CCE99A190D3060002069CCA32AAEF74 /* Axepta.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Axepta.xcconfig; sourceTree = "<group>"; };
+		682001F13478006BAD2D353DE39C055C /* Axepta.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Axepta.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C0D1E43CB34B2252CD8BF72D77C4603 /* Axepta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Axepta.release.xcconfig; sourceTree = "<group>"; };
 		8AE38DC0A6AE3207EB7DB04BF816B947 /* libPods-Axepta-demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Axepta-demo.a"; path = "libPods-Axepta-demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E019B6A82074DF4638A1ED116CA7E6B /* Pods-Axepta-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		90C2627E3AA63D41EF51AFE2FABCFE35 /* Pods-Axepta-demoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Axepta-demoUITests-dummy.m"; sourceTree = "<group>"; };
 		949F0FD24CA5CE9E52567E1470071575 /* Pods-Axepta-demo.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demo.adhoc.xcconfig"; sourceTree = "<group>"; };
+		987E64AFC01341122DEAA65A6EEDB878 /* Axepta.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Axepta.framework; path = Axepta/Axepta.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FE56E04E83AB9812C7A38009F6D2FE3 /* Pods-Axepta-demoTests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demoTests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		A00EBE4EC41506FF048DAA0E45494646 /* Pods-Axepta-demoUITests.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demoUITests.adhoc.xcconfig"; sourceTree = "<group>"; };
 		A560ED721891A2143C7F1397355F08E7 /* Pods-Axepta-demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Axepta-demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA079EDC2C672BB304F46BEFF2E0548F /* Axepta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Axepta.debug.xcconfig; sourceTree = "<group>"; };
 		BF05FAB17A239195F3390AAC204FFA85 /* Pods-Axepta-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demo.release.xcconfig"; sourceTree = "<group>"; };
 		C28C80255DAF387B58ADA8AF4A5A8A4B /* Pods-Axepta-demoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Axepta-demoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C43D81BA9812AF96FEFF54E064163AD3 /* Pods-Axepta-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Axepta-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD4D5F3253E8D28B31FD5395D6442D6A /* Pods-Axepta-demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Axepta-demo-frameworks.sh"; sourceTree = "<group>"; };
 		DBE7C1B71544213F34F977CE3A6970B7 /* Pods-Axepta-demoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Axepta-demoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E65A7F8889AA3E1AD5237E80106FA0DE /* Axepta.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Axepta.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F171F259E4ED6D838EBABB80C0118443 /* libPods-Axepta-demoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Axepta-demoTests.a"; path = "libPods-Axepta-demoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDD05EFC65489B1E64FB5EF0114094DE /* Pods-Axepta-demoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Axepta-demoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0611659B8F9C70453EF22A959753F101 /* Frameworks */ = {
+		1D67A9935E6A033984705379AA01D129 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DFBE32DEAACC14D8F5DB7F930BA2F3D /* Frameworks */ = {
+		4CF59DAA6E53863B9EED35635B012B31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD03F0398977FD72A1A9C4408DE5A53A /* Frameworks */ = {
+		A45526A4C2B56C5086ADDCEF47200CCC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,7 +107,7 @@
 		0D7F71091567277C4156404A848ABB6A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				56162A955CE93B3A5ED5A177DCC6A3A3 /* Axepta */,
+				5CDDFE54A1BE58359A210A66096C9331 /* Axepta */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -121,33 +122,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		56162A955CE93B3A5ED5A177DCC6A3A3 /* Axepta */ = {
+		49B31A769A44D8843FCC801D8A3A97A6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA3E70A550F25919AB0A62F7B9A879EA /* Frameworks */,
-				6706548FF987E1281C76C1860C159295 /* Pod */,
-				57091B5ABF279B94F9BFB2350ACDAAC0 /* Support Files */,
-			);
-			name = Axepta;
-			path = ../../Axepta;
-			sourceTree = "<group>";
-		};
-		57091B5ABF279B94F9BFB2350ACDAAC0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7CCE99A190D3060002069CCA32AAEF74 /* Axepta.xcconfig */,
+				AA079EDC2C672BB304F46BEFF2E0548F /* Axepta.debug.xcconfig */,
+				7C0D1E43CB34B2252CD8BF72D77C4603 /* Axepta.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Axepta-demo/Pods/Target Support Files/Axepta";
 			sourceTree = "<group>";
 		};
-		6706548FF987E1281C76C1860C159295 /* Pod */ = {
+		5CDDFE54A1BE58359A210A66096C9331 /* Axepta */ = {
 			isa = PBXGroup;
 			children = (
-				E65A7F8889AA3E1AD5237E80106FA0DE /* Axepta.podspec */,
-				1882FB6274D00A9187581C1D41AD05C5 /* LICENSE */,
+				9F5AD24A0170A442B5496CE22DA0C6C1 /* Frameworks */,
+				AAC1E3EB2E5040D78E44F070A61592EF /* Pod */,
+				49B31A769A44D8843FCC801D8A3A97A6 /* Support Files */,
 			);
-			name = Pod;
+			name = Axepta;
+			path = ../../Axepta;
 			sourceTree = "<group>";
 		};
 		7F705E953E81DFCB580302501E81C567 /* Pods-Axepta-demoUITests */ = {
@@ -162,6 +155,23 @@
 			);
 			name = "Pods-Axepta-demoUITests";
 			path = "Target Support Files/Pods-Axepta-demoUITests";
+			sourceTree = "<group>";
+		};
+		9F5AD24A0170A442B5496CE22DA0C6C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				987E64AFC01341122DEAA65A6EEDB878 /* Axepta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AAC1E3EB2E5040D78E44F070A61592EF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				682001F13478006BAD2D353DE39C055C /* Axepta.podspec */,
+				0139ADABB42C0FD89C3F045F0F1C5774 /* LICENSE */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BEB94790FB0E6FFD8403162BD9811CAA /* Pods-Axepta-demo */ = {
@@ -221,32 +231,24 @@
 			path = "Target Support Files/Pods-Axepta-demoTests";
 			sourceTree = "<group>";
 		};
-		FA3E70A550F25919AB0A62F7B9A879EA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6574D52D77CF3C0D7FC1714F039327A4 /* Axepta.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6D41EDB98E5275BEFBE61E8DFEAAEBD7 /* Headers */ = {
+		2E2D02ABB4E328FA0A3222E3B70A001A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C089B677D59343FC85101B601C5CDB5E /* Headers */ = {
+		33732432402B9E0FFC58DE574841F50E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB78D5A9CD870CEE7E300C24A2345D5D /* Headers */ = {
+		C3808C7BD276897D222A04C766891A3E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,16 +260,16 @@
 /* Begin PBXNativeTarget section */
 		34572C7AF25B32F6B570D2B26080F7EE /* Pods-Axepta-demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5B7DF99E4BAD61BCDDDA1AD065EDFDA /* Build configuration list for PBXNativeTarget "Pods-Axepta-demo" */;
+			buildConfigurationList = F70CC0FC232B1783BCCE81412442D90C /* Build configuration list for PBXNativeTarget "Pods-Axepta-demo" */;
 			buildPhases = (
-				C089B677D59343FC85101B601C5CDB5E /* Headers */,
-				EA7C4F031EABAE8185134CC25F35ADB9 /* Sources */,
-				DD03F0398977FD72A1A9C4408DE5A53A /* Frameworks */,
+				33732432402B9E0FFC58DE574841F50E /* Headers */,
+				C4A1C798EC18369A6D6E50C76F11E4F7 /* Sources */,
+				4CF59DAA6E53863B9EED35635B012B31 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FDF49C9DEFD1E3AA6CB5BFD1227F2EA3 /* PBXTargetDependency */,
+				80577EC0169E222059519BD05FFB828E /* PBXTargetDependency */,
 			);
 			name = "Pods-Axepta-demo";
 			productName = "Pods-Axepta-demo";
@@ -276,16 +278,16 @@
 		};
 		7EB77B8B9E44856F075DA5F88E2AF85E /* Pods-Axepta-demoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4B7E02B72F1376BCA597FDA450332F8 /* Build configuration list for PBXNativeTarget "Pods-Axepta-demoTests" */;
+			buildConfigurationList = 8A5CE8BA929D73D5BFEA936E10FFECDC /* Build configuration list for PBXNativeTarget "Pods-Axepta-demoTests" */;
 			buildPhases = (
-				FB78D5A9CD870CEE7E300C24A2345D5D /* Headers */,
-				BA72BDBE2B20C8F7C69FE51434311834 /* Sources */,
-				0611659B8F9C70453EF22A959753F101 /* Frameworks */,
+				C3808C7BD276897D222A04C766891A3E /* Headers */,
+				8FEECCD79418C985A87AED46170DC6FC /* Sources */,
+				1D67A9935E6A033984705379AA01D129 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				750B684D882664FD128347BD5898F789 /* PBXTargetDependency */,
+				391F656EC7A6575D3EADC3E217008C86 /* PBXTargetDependency */,
 			);
 			name = "Pods-Axepta-demoTests";
 			productName = "Pods-Axepta-demoTests";
@@ -294,16 +296,16 @@
 		};
 		885370D33A18B6E31F8B3B305DC5A38B /* Pods-Axepta-demoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74A26F33858172BFBCFB9741C61FE3A9 /* Build configuration list for PBXNativeTarget "Pods-Axepta-demoUITests" */;
+			buildConfigurationList = 4F05166F43FA3DA24FD4F965F5425E5E /* Build configuration list for PBXNativeTarget "Pods-Axepta-demoUITests" */;
 			buildPhases = (
-				6D41EDB98E5275BEFBE61E8DFEAAEBD7 /* Headers */,
-				B8FF59FF152AB49A3A624096092590B6 /* Sources */,
-				7DFBE32DEAACC14D8F5DB7F930BA2F3D /* Frameworks */,
+				2E2D02ABB4E328FA0A3222E3B70A001A /* Headers */,
+				601B7450AE0CD9A255B80CF10F87B325 /* Sources */,
+				A45526A4C2B56C5086ADDCEF47200CCC /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC1A6D71D607AFF1877EA33520E5858F /* PBXTargetDependency */,
+				0FCFB82580F5B4E3AFF0EA95C1E5415D /* PBXTargetDependency */,
 			);
 			name = "Pods-Axepta-demoUITests";
 			productName = "Pods-Axepta-demoUITests";
@@ -341,58 +343,138 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B8FF59FF152AB49A3A624096092590B6 /* Sources */ = {
+		601B7450AE0CD9A255B80CF10F87B325 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9FB7783050845B838DC43D1AA327185 /* Pods-Axepta-demoUITests-dummy.m in Sources */,
+				26DD68E2D42CB595F52547896281AA2C /* Pods-Axepta-demoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA72BDBE2B20C8F7C69FE51434311834 /* Sources */ = {
+		8FEECCD79418C985A87AED46170DC6FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16B34EEFB9E09A97A0D96C39A17453D0 /* Pods-Axepta-demoTests-dummy.m in Sources */,
+				A2B28B0CFF9A0B4CC246824B8E8FC92F /* Pods-Axepta-demoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA7C4F031EABAE8185134CC25F35ADB9 /* Sources */ = {
+		C4A1C798EC18369A6D6E50C76F11E4F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99AF35636219C6EBF77555DC269497B0 /* Pods-Axepta-demo-dummy.m in Sources */,
+				D2C8697E96B28D089AEE992C73E5BF79 /* Pods-Axepta-demo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		750B684D882664FD128347BD5898F789 /* PBXTargetDependency */ = {
+		0FCFB82580F5B4E3AFF0EA95C1E5415D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Axepta-demo";
 			target = 34572C7AF25B32F6B570D2B26080F7EE /* Pods-Axepta-demo */;
-			targetProxy = 80C174EBEA263E71DE821DC7EDA81690 /* PBXContainerItemProxy */;
+			targetProxy = C3A8C5C6605772AFE7393148FDECDA62 /* PBXContainerItemProxy */;
 		};
-		CC1A6D71D607AFF1877EA33520E5858F /* PBXTargetDependency */ = {
+		391F656EC7A6575D3EADC3E217008C86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Axepta-demo";
 			target = 34572C7AF25B32F6B570D2B26080F7EE /* Pods-Axepta-demo */;
-			targetProxy = 0FA15B06F262A67E20733C4D658A65A2 /* PBXContainerItemProxy */;
+			targetProxy = E1F711CFD3634C2494D11758C7FE003F /* PBXContainerItemProxy */;
 		};
-		FDF49C9DEFD1E3AA6CB5BFD1227F2EA3 /* PBXTargetDependency */ = {
+		80577EC0169E222059519BD05FFB828E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Axepta;
 			target = 84E2B79FCAB62DD921818F171936FFE5 /* Axepta */;
-			targetProxy = 2F8217D7652D8EC920A3A0D0447F3080 /* PBXContainerItemProxy */;
+			targetProxy = F31ABA9D561605F9BE3CA453085ED9BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+		34282B65623696C5C84219BA9EB104A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E019B6A82074DF4638A1ED116CA7E6B /* Pods-Axepta-demo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36BECDB71E3C8E0A8D221AEA456D5A5E /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00EBE4EC41506FF048DAA0E45494646 /* Pods-Axepta-demoUITests.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		6535784C35958982C4725F21740C15B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D689C7EEE17A0169673907CF8468119 /* Pods-Axepta-demoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75CC94CE6D0AF3B60CE43FA39BE8FA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA079EDC2C672BB304F46BEFF2E0548F /* Axepta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -415,6 +497,214 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		88F2A6C408CD94033D0E3A96C83417A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF05FAB17A239195F3390AAC204FFA85 /* Pods-Axepta-demo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C85502F7792CDC6942B7FB0683DC940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4523F1AA49504A8CA90DFB04299D651E /* Pods-Axepta-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3EBE2808967F0FBCB923C6B42ECDA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43D81BA9812AF96FEFF54E064163AD3 /* Pods-Axepta-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6D2744DF5040AB11C406B1FB2CE742D /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949F0FD24CA5CE9E52567E1470071575 /* Pods-Axepta-demo.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		BD46C2EA264ECA7B841ABA29C9E6CF05 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FE56E04E83AB9812C7A38009F6D2FE3 /* Pods-Axepta-demoTests.adhoc.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		BEF0927D44174E9373946D2C18AC4A69 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C0D1E43CB34B2252CD8BF72D77C4603 /* Axepta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		C2BFBF47A75E36310EC69A09F7669067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333E7F633715FBDD082D6A3BC5BD87E1 /* Pods-Axepta-demoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -453,117 +743,26 @@
 			};
 			name = Debug;
 		};
-		2B5D3776EAC9D47F4EC288B0D3DCEE9E /* Release */ = {
+		F80702B1838DB92929D358C582F253F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF05FAB17A239195F3390AAC204FFA85 /* Pods-Axepta-demo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		325F8A19CC70D219C7996CEE7EC20606 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4523F1AA49504A8CA90DFB04299D651E /* Pods-Axepta-demoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		49F685AE09D8052DC44B5873671CB809 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CCE99A190D3060002069CCA32AAEF74 /* Axepta.xcconfig */;
+			baseConfigurationReference = 7C0D1E43CB34B2252CD8BF72D77C4603 /* Axepta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = AdHoc;
-		};
-		5ED026DEF84DFF4C55066F3F2EF04F46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D689C7EEE17A0169673907CF8468119 /* Pods-Axepta-demoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
 			name = Release;
 		};
-		758B76909957DB5E6FC49ECFEB79059A /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A00EBE4EC41506FF048DAA0E45494646 /* Pods-Axepta-demoUITests.adhoc.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AdHoc;
-		};
-		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+		FFAA679427F5A79A8D9E565E1B7ABB89 /* AdHoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -586,66 +785,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B1FAFACD9E2128B6A240D5FC22368C74 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -680,166 +820,35 @@
 			};
 			name = AdHoc;
 		};
-		C8387B4067A1E217B615CD1AF469C026 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CCE99A190D3060002069CCA32AAEF74 /* Axepta.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CB80D4B69ABF1B7C793BBC2EA9B99924 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C43D81BA9812AF96FEFF54E064163AD3 /* Pods-Axepta-demoTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D73A99DD08F724962179CDC9F8EA0F6E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E019B6A82074DF4638A1ED116CA7E6B /* Pods-Axepta-demo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DA9F06E1B3A3AD2AAE134A37241192F6 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FE56E04E83AB9812C7A38009F6D2FE3 /* Pods-Axepta-demoTests.adhoc.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AdHoc;
-		};
-		DDB55A711796A120658CF6B0BB197C11 /* AdHoc */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 949F0FD24CA5CE9E52567E1470071575 /* Pods-Axepta-demo.adhoc.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = AdHoc;
-		};
-		F182B4CB9DAFD7A2B5B31BD1240155BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 333E7F633715FBDD082D6A3BC5BD87E1 /* Pods-Axepta-demoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		FD77F675D023BCC67ACA2A4E63D23115 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CCE99A190D3060002069CCA32AAEF74 /* Axepta.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1FAFACD9E2128B6A240D5FC22368C74 /* AdHoc */,
-				196DFA3E4A09A28224918543529A1885 /* Debug */,
-				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+				FFAA679427F5A79A8D9E565E1B7ABB89 /* AdHoc */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74A26F33858172BFBCFB9741C61FE3A9 /* Build configuration list for PBXNativeTarget "Pods-Axepta-demoUITests" */ = {
+		4F05166F43FA3DA24FD4F965F5425E5E /* Build configuration list for PBXNativeTarget "Pods-Axepta-demoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				758B76909957DB5E6FC49ECFEB79059A /* AdHoc */,
-				F182B4CB9DAFD7A2B5B31BD1240155BB /* Debug */,
-				5ED026DEF84DFF4C55066F3F2EF04F46 /* Release */,
+				36BECDB71E3C8E0A8D221AEA456D5A5E /* AdHoc */,
+				C2BFBF47A75E36310EC69A09F7669067 /* Debug */,
+				6535784C35958982C4725F21740C15B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A5CE8BA929D73D5BFEA936E10FFECDC /* Build configuration list for PBXNativeTarget "Pods-Axepta-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD46C2EA264ECA7B841ABA29C9E6CF05 /* AdHoc */,
+				A3EBE2808967F0FBCB923C6B42ECDA00 /* Debug */,
+				8C85502F7792CDC6942B7FB0683DC940 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -847,29 +856,19 @@
 		E1F4C44633D80A47C3C061AE9B1419A4 /* Build configuration list for PBXAggregateTarget "Axepta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				49F685AE09D8052DC44B5873671CB809 /* AdHoc */,
-				FD77F675D023BCC67ACA2A4E63D23115 /* Debug */,
-				C8387B4067A1E217B615CD1AF469C026 /* Release */,
+				BEF0927D44174E9373946D2C18AC4A69 /* AdHoc */,
+				75CC94CE6D0AF3B60CE43FA39BE8FA36 /* Debug */,
+				F80702B1838DB92929D358C582F253F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4B7E02B72F1376BCA597FDA450332F8 /* Build configuration list for PBXNativeTarget "Pods-Axepta-demoTests" */ = {
+		F70CC0FC232B1783BCCE81412442D90C /* Build configuration list for PBXNativeTarget "Pods-Axepta-demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DA9F06E1B3A3AD2AAE134A37241192F6 /* AdHoc */,
-				CB80D4B69ABF1B7C793BBC2EA9B99924 /* Debug */,
-				325F8A19CC70D219C7996CEE7EC20606 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E5B7DF99E4BAD61BCDDDA1AD065EDFDA /* Build configuration list for PBXNativeTarget "Pods-Axepta-demo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DDB55A711796A120658CF6B0BB197C11 /* AdHoc */,
-				D73A99DD08F724962179CDC9F8EA0F6E /* Debug */,
-				2B5D3776EAC9D47F4EC288B0D3DCEE9E /* Release */,
+				B6D2744DF5040AB11C406B1FB2CE742D /* AdHoc */,
+				34282B65623696C5C84219BA9EB104A3 /* Debug */,
+				88F2A6C408CD94033D0E3A96C83417A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
