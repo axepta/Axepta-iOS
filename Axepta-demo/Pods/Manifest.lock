@@ -1,5 +1,5 @@
 PODS:
-  - Axepta (1.2.1)
+  - Axepta (1.2.2)
 
 DEPENDENCIES:
   - Axepta (from `../Axepta`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../Axepta"
 
 SPEC CHECKSUMS:
-  Axepta: 36baae44681e17f4ad606a2a5f3a5ce3b5cb00c6
+  Axepta: 836cc234d477f56d8275f15deed5505137de3c25
 
 PODFILE CHECKSUM: ebe8b1563c0b9057a4ead268c39054cfa7fd44f3
 

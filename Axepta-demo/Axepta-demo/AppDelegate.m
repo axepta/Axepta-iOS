@@ -27,6 +27,7 @@
     AxeptaConfiguration.WeChat->key = @"YOUR_WECHAT_KEY";
     AxeptaConfiguration.WeChat->mchID = @"YOUR_WECHAT_MERCHANTID";
     AxeptaConfiguration.WeChat->subMchID = @"YOUR_WECHAT_SUBMERCHANTID";
+    AxeptaConfiguration.WeChat->universalLink = @"YOUR_WECHAT_UNIVERSAL_LINK";
     
     return YES;
 }

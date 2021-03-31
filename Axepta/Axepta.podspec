@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name                  = 'Axepta'
-  s.version               = '1.2.1'
+  s.version               = '1.2.2'
   s.summary               = 'Axepta SDK for iOS'
   # s.description         = 'Axepta SDK for iOS'
   s.homepage              = 'https://github.com/axepta/Axepta-iOS.git'
